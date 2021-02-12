@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left, #EB3349, #F45C43);
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.container{
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  background: #00d4ff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  
+}
+
+table{
+	padding: 30px;
+}
+
+tr,td{
+	font-family: cursive;
+}
+
+h1 { font-family: "Sigmar One"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
